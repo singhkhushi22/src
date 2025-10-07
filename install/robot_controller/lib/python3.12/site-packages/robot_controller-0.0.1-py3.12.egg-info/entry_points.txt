@@ -1,0 +1,4 @@
+[console_scripts]
+autodrive_node = robot_controller.autodrive:main
+main_node = robot_controller.main:main
+rccontrol_node = robot_controller.rccontrol:main

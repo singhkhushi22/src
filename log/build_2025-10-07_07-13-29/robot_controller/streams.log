@@ -1,0 +1,45 @@
+[1.529s] Invoking command in '/home/khushi/ros2_ws/src/robot_controller': PYTHONPATH=/home/khushi/ros2_ws/src/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/khushi/ros2_ws/src/build/robot_controller/build install --record /home/khushi/ros2_ws/src/build/robot_controller/install.log --single-version-externally-managed install_data
+[1.858s] running egg_info
+[1.859s] creating ../build/robot_controller/robot_controller.egg-info
+[1.886s] writing ../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[1.886s] writing dependency_links to ../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[1.887s] writing entry points to ../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[1.887s] writing requirements to ../build/robot_controller/robot_controller.egg-info/requires.txt
+[1.887s] writing top-level names to ../build/robot_controller/robot_controller.egg-info/top_level.txt
+[1.888s] writing manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.924s] reading manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.925s] writing manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[1.925s] running build
+[1.925s] running build_py
+[1.925s] creating /home/khushi/ros2_ws/src/build/robot_controller/build
+[1.926s] creating /home/khushi/ros2_ws/src/build/robot_controller/build/lib
+[1.926s] creating /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller
+[1.927s] copying robot_controller/__init__.py -> /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller
+[1.927s] copying robot_controller/main.py -> /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller
+[1.928s] copying robot_controller/rccontrol.py -> /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller
+[1.930s] copying robot_controller/autodrive.py -> /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller
+[1.932s] running install
+[1.940s] running install_lib
+[1.958s] creating /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller
+[1.958s] copying /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller
+[1.959s] copying /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller/main.py -> /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller
+[1.959s] copying /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller/rccontrol.py -> /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller
+[1.959s] copying /home/khushi/ros2_ws/src/build/robot_controller/build/lib/robot_controller/autodrive.py -> /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller
+[1.960s] byte-compiling /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller/__init__.py to __init__.cpython-312.pyc
+[1.961s] byte-compiling /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller/main.py to main.cpython-312.pyc
+[1.963s] byte-compiling /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller/rccontrol.py to rccontrol.cpython-312.pyc
+[1.965s] byte-compiling /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller/autodrive.py to autodrive.cpython-312.pyc
+[1.966s] running install_data
+[1.966s] creating /home/khushi/ros2_ws/src/install/robot_controller/share/ament_index
+[1.967s] creating /home/khushi/ros2_ws/src/install/robot_controller/share/ament_index/resource_index
+[1.967s] creating /home/khushi/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/packages
+[1.968s] copying resource/robot_controller -> /home/khushi/ros2_ws/src/install/robot_controller/share/ament_index/resource_index/packages
+[1.968s] copying package.xml -> /home/khushi/ros2_ws/src/install/robot_controller/share/robot_controller
+[1.968s] running install_egg_info
+[1.986s] Copying ../build/robot_controller/robot_controller.egg-info to /home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages/robot_controller-0.0.0-py3.12.egg-info
+[1.989s] running install_scripts
+[2.154s] Installing autodrive_node script to /home/khushi/ros2_ws/src/install/robot_controller/lib/robot_controller
+[2.155s] Installing main_node script to /home/khushi/ros2_ws/src/install/robot_controller/lib/robot_controller
+[2.155s] Installing rccontrol_node script to /home/khushi/ros2_ws/src/install/robot_controller/lib/robot_controller
+[2.156s] writing list of installed files to '/home/khushi/ros2_ws/src/build/robot_controller/install.log'
+[2.201s] Invoked command in '/home/khushi/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/khushi/ros2_ws/src/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushi/ros2_ws/src/install/robot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/khushi/ros2_ws/src/build/robot_controller/build install --record /home/khushi/ros2_ws/src/build/robot_controller/install.log --single-version-externally-managed install_data

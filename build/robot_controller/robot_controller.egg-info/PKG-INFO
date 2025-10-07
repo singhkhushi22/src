@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robot-controller
+Version: 0.0.1
+Summary: ROS2-based robot controller with manual and autonomous drive modes
+Maintainer: khushi
+Maintainer-email: khushi@todo.todo
+License: MIT
