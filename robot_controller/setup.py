@@ -23,11 +23,8 @@ setup(
              # Main robot mode manager (switches between manual and auto)
           'main_node = robot_controller.main:main',
 
-        # RC control node (manual driving)
-        'rccontrol_node = robot_controller.rccontrol:main',
-
-        # Autonomous drive node
-        'autodrive_node = robot_controller.autodrive:main',
+          'rc_control_node = robot_controller.rccontrol:main',  # matches rccontrol.py
+            'auto_drive_node = robot_controller.autodrive:main',
         ],
     },
 )
